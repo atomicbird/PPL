@@ -1,0 +1,32 @@
+{
+    CURRENTLY_ACTIVE_VERSION = YES; 
+    DEPLOY_WITH_VERSION_NAME = A; 
+    DYNAMIC_CODE_GEN = YES; 
+    FILESTABLE = {
+        CLASSES = (PPLOrderedHeap.m, PPL.m); 
+        FRAMEWORKS = (Foundation.framework); 
+        H_FILES = (PPLOrderedHeap.h, PPL.h); 
+        OTHER_SOURCES = (Makefile); 
+        PRECOMPILED_HEADERS = (); 
+        PROJECT_HEADERS = (PPLOrderedHeap.h); 
+        PUBLIC_HEADERS = (PPL.h); 
+    }; 
+    LANGUAGE = English; 
+    LOCALIZABLE_FILES = {}; 
+    MAKEFILEDIR = "$(MAKEFILEPATH)/pb_makefiles"; 
+    NEXTSTEP_BUILDTOOL = /bin/gnumake; 
+    NEXTSTEP_INSTALLDIR = "$(LOCAL_LIBRARY_DIR)/Frameworks"; 
+    NEXTSTEP_JAVA_COMPILER = /usr/bin/javac; 
+    NEXTSTEP_OBJCPLUS_COMPILER = /usr/bin/cc; 
+    PDO_UNIX_BUILDTOOL = $NEXT_ROOT/Developer/bin/make; 
+    PDO_UNIX_INSTALLDIR = "$(LOCAL_LIBRARY_DIR)/Frameworks"; 
+    PDO_UNIX_JAVA_COMPILER = "$(NEXTDEV_BIN)/javac"; 
+    PDO_UNIX_OBJCPLUS_COMPILER = "$(NEXTDEV_BIN)/gcc"; 
+    PROJECTNAME = PPL; 
+    PROJECTTYPE = Framework; 
+    PROJECTVERSION = 2.7; 
+    WINDOWS_BUILDTOOL = $NEXT_ROOT/Developer/Executables/make; 
+    WINDOWS_INSTALLDIR = "$(HOMEDRIVE)$(LOCAL_DEVELOPER_DIR)/Frameworks"; 
+    WINDOWS_JAVA_COMPILER = "$(JDKBINDIR)/javac.exe"; 
+    WINDOWS_OBJCPLUS_COMPILER = "$(DEVDIR)/gcc"; 
+}

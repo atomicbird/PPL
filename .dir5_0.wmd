@@ -1,0 +1,6 @@
+{
+    RootNode = /PPL; 
+    Toolbar = No; 
+    ViewName = Browser; 
+    WindowFrame = "{x = 256; y = 222; width = 450; height = 441}"; 
+}
